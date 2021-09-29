@@ -1,0 +1,16 @@
+.container_digimon img{
+    width: 165px;
+}
+.each_digimonList{
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: rgb(23, 146, 253);
+    padding: 5px 0px;
+}
+@media only screen and (min-width:767px){
+    .container_digimon{
+        width: 310px;
+        margin: 50px auto 0;
+    }
+}

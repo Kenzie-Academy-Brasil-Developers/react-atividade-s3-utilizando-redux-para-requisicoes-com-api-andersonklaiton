@@ -1,0 +1,46 @@
+h1{
+    font-size: 50px;
+    margin: 5px;
+}
+.container_inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.container_inputs input{
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    padding: 0 10px;
+    margin: 10px;
+}
+.btn_search, .btn_back{
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(2, 76, 141);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+@media only screen and (min-width:767px){
+    .container_inputs input {
+        width: 50%;
+    }
+    .btns{
+        width: 50%;
+    }
+}

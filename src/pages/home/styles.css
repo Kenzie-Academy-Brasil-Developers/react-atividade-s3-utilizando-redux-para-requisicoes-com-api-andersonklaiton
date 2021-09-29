@@ -1,0 +1,43 @@
+h1, p{
+    text-transform:  uppercase;
+    color: rgb(0, 0, 0);
+}
+h1{
+    font-size: 60px;
+    margin: 5px auto;
+}
+.btn_Search{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(2, 76, 141);
+    color: #fff;
+    text-transform:  uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+.each_digimon img{
+    border-radius: 10px;
+    width: 200px;
+}
+.each_digimon{
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: rgb(23, 146, 253);
+    padding: 5px 0px;
+}
+
+@media only screen and (min-width:769px){
+    .container_digimons{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .each_digimon{
+        width: 26%;
+        
+    }
+}
+
